@@ -28,13 +28,13 @@ public class Calculadora extends JFrame {
 		buttonsPanel.add(new JButton("*"));
 		buttonsPanel.add(new JButton("/"));
 		agregarBoton(buttonsPanel,"7",digitListener);
-		buttonsPanel.add(new JButton("8"));
+		agregarBoton(buttonsPanel,"8",digitListener);
 		agregarBoton(buttonsPanel,"9",digitListener);
-		buttonsPanel.add(new JButton("4"));
+		agregarBoton(buttonsPanel,"4",digitListener);
 		agregarBoton(buttonsPanel,"5",digitListener);
-		buttonsPanel.add(new JButton("6"));
+		agregarBoton(buttonsPanel,"6",digitListener);
 		agregarBoton(buttonsPanel,"1",digitListener);
-		buttonsPanel.add(new JButton("2"));
+		agregarBoton(buttonsPanel,"2",digitListener);
 		agregarBoton(buttonsPanel,"3",digitListener);
 		buttonsPanel.add(new JButton("."));
 		buttonsPanel.add(new JButton("0"));
